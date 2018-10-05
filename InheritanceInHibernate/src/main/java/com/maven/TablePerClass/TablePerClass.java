@@ -45,7 +45,7 @@ public class TablePerClass {
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 class Parent {
 	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int pId;
 	private String pName;
 

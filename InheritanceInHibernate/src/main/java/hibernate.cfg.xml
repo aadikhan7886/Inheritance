@@ -30,10 +30,10 @@
 
 		<property name="hbm2ddl.auto">create-drop</property>
 
-		<mapping class="com.maven.TablePerConcrete.Parent" />
-		<mapping class="com.maven.TablePerConcrete.Child1" />
-		<mapping class="com.maven.TablePerConcrete.Child2" />
-		<mapping class="com.maven.TablePerConcrete.Child3" />
+		<mapping class="com.maven.TablePerClass.Parent" />
+		<mapping class="com.maven.TablePerClass.Child1" />
+		<mapping class="com.maven.TablePerClass.Child2" />
+		<!-- <mapping class="com.maven.TablePerConcrete.Child3" /> -->
 
 	</session-factory>
 </hibernate-configuration>
