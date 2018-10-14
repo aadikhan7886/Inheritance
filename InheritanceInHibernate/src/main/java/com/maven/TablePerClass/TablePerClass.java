@@ -22,7 +22,7 @@ public class TablePerClass {
 		SessionFactory sf = new Configuration().configure().buildSessionFactory();
 		Session session = sf.openSession();
 		Transaction transaction = session.beginTransaction();
-
+		System.out.println("Addind Data...");
 		Parent p1 = new Parent(101, "Parent1");
 
 		Child1 c11 = new Child1(111, "Parent_Child1", 11, "Child1");
